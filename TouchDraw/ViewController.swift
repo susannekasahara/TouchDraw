@@ -26,51 +26,108 @@ class ViewController: UIViewController {
             
             self.view.layoutIfNeeded()
             
-            }
+        }
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-                }
         
+        
+    }
+    
+    var chosenTool: Int = 0
+    
+    
+    @IBAction func chooseTool(button: UIButton) {
+        
+        chosenTool = button.tag
+    
+    }
+    
+    var chosenColor: UIColor = UIColor.blackColor()
+    
+    
+    @IBAction func chooseColor(button: UIButton) {
+        chosenColor = button.backgroundColor ?? UIColor.blackColor()
+    
+    }
+    
+    @IBAction func undo(sender: AnyObject) {
+        
+       if (view as? DrawView)?.lines.count > 0 {
             
+            (view as?DrawView)?.lines.removeLast()
+        }
         
+        view.setNeedsDisplay()
+        
+    }
+    
+    @IBAction func clear(sender: UIButton) {
+        
+        (view as? DrawView)?.lines = []
+        
+        view.setNeedsDisplay()
+    }
     
     
     override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
         
         if let touch = touches.first {
             
-            ///Line
+            switch chosenTool {
+                
+            case 1 :
+                
+                //SCRIBBLE
+                
+                let newScribble = Scribble()
+                
+                newScribble.points.append(touch.locationInView(view))
+                
+                newScribble.strokeColor = chosenColor
+                
+                newScribble.strokeWidth = 10
+                
+                (view as? DrawView)?.lines.append(newScribble)
+                
+                
+            case 2 :
+                
+                startShape(.Circle, withTouch: touch)
+                
+            case 3 :
+                
+                startShape(.Rectangle, withTouch: touch)
+                
+                
+            case 4 :
+                
+                startShape(.Triangle, withTouch: touch)
+                
+                
+                
+            case 5 :
+                
+                startShape(.Diamond, withTouch: touch)
+                
+            default : // case 0
+                
+                ///Line
+                
+                let newLine = Line()
+                
+                newLine.start = touch.locationInView(view)
+                newLine.strokeColor = chosenColor
+                newLine.strokeWidth = 10
+                
+                (view as? DrawView)?.lines.append(newLine)
+                
+                
+            }
             
-            //            let newLine = Line()
             
-            //            newLine.start = touch.locationInView(view)
-            //            newLine.strokeColor = UIColor.blackColor()
-            //            newLine.strokeWidth = 10
-            
-            //            (view as? DrawView)?.lines.append(newLine)
-            
-            //            /Scribble
-            
-            //            let newScribble = Scribble()
-            
-            //            newScribble.points.append(touch.locationInView(view))
-            
-            //            newScribble.strokeColor = UIColor.blackColor()
-            //            newScribble.strokeWidth = 10
-            //
-            //            (view as? DrawView)?.lines.append(newScribble)
-            
-            //            //Shape
-            
-            let shape = Shape(type: .Circle)
-            
-            shape.start = touch.locationInView(view)
-            shape.fillColor = UIColor.purpleColor()
-            
-            (view as? DrawView)?.lines.append(shape)
             
             view.setNeedsDisplay()
             
@@ -78,11 +135,48 @@ class ViewController: UIViewController {
         }
         
     }
+    func startShape(type: ShapeType, withTouch touch: UITouch) {
+        
+        
+        let shape = Shape(type: type)
+        
+        shape.start = touch.locationInView(view)
+        shape.fillColor = chosenColor
+        
+        (view as? DrawView)?.lines.append(shape)
+        
+    }
+    
+    // SHAPE
     
     override func touchesMoved(touches: Set<UITouch>, withEvent event: UIEvent?) {
         
         if let touch = touches.first {
+           
+            if let currentScribble = (view as? DrawView)?.lines.last as? Scribble {
+                
+                currentScribble.points.append(touch.locationInView(view))
+                
+                view.setNeedsDisplay()
+                
+            } else if let currentLine = (view as? DrawView)?.lines.last {
+                        
+                        currentLine.end = touch.locationInView(view)
+                        
+                        view.setNeedsDisplay()
+                        
+                        }
+                
+                
+            }
+
             
+            
+                
+            
+                ///EVERYTHING ELSE
+                
+                
             //Line
             
             //            if let currentLine = (view as? DrawView)?.lines.last {
@@ -95,23 +189,14 @@ class ViewController: UIViewController {
             
             //Scribble
             
-            //            if let currentScribble = (view as? DrawView)?.lines.last as? Scribble {
-            //
-            //                currentScribble.points.append(touch.locationInView(view))
-            //
-            //                view.setNeedsDisplay()
-            
+                    
             ///shape
             
-            if let currentShape = (view as? DrawView)?.lines.last {
-                currentShape.end = touch.locationInView(view)
-                
-                view.setNeedsDisplay()
-            }
+            
         }
     }
     
-}
+
 
 
 

@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "8AE82164A1B38F6DC8BE9596FFF7B744BB5913FC",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "CA39AE42DA6FCA49972881DFFB67CBF80F3A8B62" : 0,
+    "8AE82164A1B38F6DC8BE9596FFF7B744BB5913FC" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "BD3C4B60-D08F-4B48-8AB8-13CC78C3B96F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "CA39AE42DA6FCA49972881DFFB67CBF80F3A8B62" : "SimpleApps\/",
+    "8AE82164A1B38F6DC8BE9596FFF7B744BB5913FC" : "TouchDraw\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "TouchDraw",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "TouchDraw.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/susannekasahara\/TouchDraw.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8AE82164A1B38F6DC8BE9596FFF7B744BB5913FC"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/susannekasahara\/SimpleApps.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "CA39AE42DA6FCA49972881DFFB67CBF80F3A8B62"
+    }
+  ]
+}
