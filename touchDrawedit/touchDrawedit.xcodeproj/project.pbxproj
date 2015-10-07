@@ -1,0 +1,327 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		825FC9EC1BC5AB4E006A9C68 /* triangle.png in Resources */ = {isa = PBXBuildFile; fileRef = 825FC9EB1BC5AB4E006A9C68 /* triangle.png */; settings = {ASSET_TAGS = (); }; };
+		825FC9EE1BC5AB5A006A9C68 /* line.png in Resources */ = {isa = PBXBuildFile; fileRef = 825FC9ED1BC5AB5A006A9C68 /* line.png */; settings = {ASSET_TAGS = (); }; };
+		825FC9F01BC5AB65006A9C68 /* scribble.png in Resources */ = {isa = PBXBuildFile; fileRef = 825FC9EF1BC5AB65006A9C68 /* scribble.png */; settings = {ASSET_TAGS = (); }; };
+		825FC9F21BC5AB7C006A9C68 /* square.png in Resources */ = {isa = PBXBuildFile; fileRef = 825FC9F11BC5AB7C006A9C68 /* square.png */; settings = {ASSET_TAGS = (); }; };
+		825FC9F41BC5AB97006A9C68 /* diamond.png in Resources */ = {isa = PBXBuildFile; fileRef = 825FC9F31BC5AB97006A9C68 /* diamond.png */; settings = {ASSET_TAGS = (); }; };
+		825FC9F61BC5ABB0006A9C68 /* circle.png in Resources */ = {isa = PBXBuildFile; fileRef = 825FC9F51BC5ABB0006A9C68 /* circle.png */; settings = {ASSET_TAGS = (); }; };
+		82827BED1BC2B43D00915FB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82827BEC1BC2B43D00915FB9 /* AppDelegate.swift */; };
+		82827BEF1BC2B43D00915FB9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82827BEE1BC2B43D00915FB9 /* ViewController.swift */; };
+		82827BF21BC2B43D00915FB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82827BF01BC2B43D00915FB9 /* Main.storyboard */; };
+		82827BF41BC2B43D00915FB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82827BF31BC2B43D00915FB9 /* Assets.xcassets */; };
+		82827BF71BC2B43D00915FB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82827BF51BC2B43D00915FB9 /* LaunchScreen.storyboard */; };
+		82827BFF1BC2B4D500915FB9 /* drawviewedit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82827BFE1BC2B4D500915FB9 /* drawviewedit.swift */; settings = {ASSET_TAGS = (); }; };
+		82827C011BC2B5D000915FB9 /* togglebuttonedit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82827C001BC2B5D000915FB9 /* togglebuttonedit.swift */; settings = {ASSET_TAGS = (); }; };
+		82827C031BC2B72600915FB9 /* touchslideredit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82827C021BC2B72600915FB9 /* touchslideredit.swift */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		825FC9EB1BC5AB4E006A9C68 /* triangle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = triangle.png; path = ../../../../Desktop/triangle.png; sourceTree = "<group>"; };
+		825FC9ED1BC5AB5A006A9C68 /* line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = line.png; path = ../../../../Desktop/line.png; sourceTree = "<group>"; };
+		825FC9EF1BC5AB65006A9C68 /* scribble.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = scribble.png; path = ../../../../Desktop/scribble.png; sourceTree = "<group>"; };
+		825FC9F11BC5AB7C006A9C68 /* square.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = square.png; path = ../../../../Desktop/square.png; sourceTree = "<group>"; };
+		825FC9F31BC5AB97006A9C68 /* diamond.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = diamond.png; path = ../../../../Desktop/diamond.png; sourceTree = "<group>"; };
+		825FC9F51BC5ABB0006A9C68 /* circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = circle.png; path = ../../../../Desktop/circle.png; sourceTree = "<group>"; };
+		82827BE91BC2B43C00915FB9 /* touchDrawedit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = touchDrawedit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		82827BEC1BC2B43D00915FB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		82827BEE1BC2B43D00915FB9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		82827BF11BC2B43D00915FB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		82827BF31BC2B43D00915FB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		82827BF61BC2B43D00915FB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		82827BF81BC2B43D00915FB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82827BFE1BC2B4D500915FB9 /* drawviewedit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = drawviewedit.swift; sourceTree = SOURCE_ROOT; };
+		82827C001BC2B5D000915FB9 /* togglebuttonedit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = togglebuttonedit.swift; sourceTree = "<group>"; };
+		82827C021BC2B72600915FB9 /* touchslideredit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = touchslideredit.swift; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82827BE61BC2B43C00915FB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		82827BE01BC2B43C00915FB9 = {
+			isa = PBXGroup;
+			children = (
+				82827BEB1BC2B43C00915FB9 /* touchDrawedit */,
+				82827BEA1BC2B43C00915FB9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		82827BEA1BC2B43C00915FB9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82827BE91BC2B43C00915FB9 /* touchDrawedit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82827BEB1BC2B43C00915FB9 /* touchDrawedit */ = {
+			isa = PBXGroup;
+			children = (
+				82827BEC1BC2B43D00915FB9 /* AppDelegate.swift */,
+				82827BEE1BC2B43D00915FB9 /* ViewController.swift */,
+				82827BF01BC2B43D00915FB9 /* Main.storyboard */,
+				82827BF31BC2B43D00915FB9 /* Assets.xcassets */,
+				82827BF51BC2B43D00915FB9 /* LaunchScreen.storyboard */,
+				825FC9EB1BC5AB4E006A9C68 /* triangle.png */,
+				825FC9F11BC5AB7C006A9C68 /* square.png */,
+				825FC9F31BC5AB97006A9C68 /* diamond.png */,
+				825FC9EF1BC5AB65006A9C68 /* scribble.png */,
+				825FC9F51BC5ABB0006A9C68 /* circle.png */,
+				825FC9ED1BC5AB5A006A9C68 /* line.png */,
+				82827BF81BC2B43D00915FB9 /* Info.plist */,
+				82827BFE1BC2B4D500915FB9 /* drawviewedit.swift */,
+				82827C001BC2B5D000915FB9 /* togglebuttonedit.swift */,
+				82827C021BC2B72600915FB9 /* touchslideredit.swift */,
+			);
+			path = touchDrawedit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82827BE81BC2B43C00915FB9 /* touchDrawedit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82827BFB1BC2B43D00915FB9 /* Build configuration list for PBXNativeTarget "touchDrawedit" */;
+			buildPhases = (
+				82827BE51BC2B43C00915FB9 /* Sources */,
+				82827BE61BC2B43C00915FB9 /* Frameworks */,
+				82827BE71BC2B43C00915FB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = touchDrawedit;
+			productName = touchDrawedit;
+			productReference = 82827BE91BC2B43C00915FB9 /* touchDrawedit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82827BE11BC2B43C00915FB9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Susanne Kasahara";
+				TargetAttributes = {
+					82827BE81BC2B43C00915FB9 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 82827BE41BC2B43C00915FB9 /* Build configuration list for PBXProject "touchDrawedit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 82827BE01BC2B43C00915FB9;
+			productRefGroup = 82827BEA1BC2B43C00915FB9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82827BE81BC2B43C00915FB9 /* touchDrawedit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82827BE71BC2B43C00915FB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82827BF71BC2B43D00915FB9 /* LaunchScreen.storyboard in Resources */,
+				825FC9EE1BC5AB5A006A9C68 /* line.png in Resources */,
+				825FC9F41BC5AB97006A9C68 /* diamond.png in Resources */,
+				825FC9F61BC5ABB0006A9C68 /* circle.png in Resources */,
+				825FC9EC1BC5AB4E006A9C68 /* triangle.png in Resources */,
+				825FC9F21BC5AB7C006A9C68 /* square.png in Resources */,
+				825FC9F01BC5AB65006A9C68 /* scribble.png in Resources */,
+				82827BF41BC2B43D00915FB9 /* Assets.xcassets in Resources */,
+				82827BF21BC2B43D00915FB9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82827BE51BC2B43C00915FB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82827BFF1BC2B4D500915FB9 /* drawviewedit.swift in Sources */,
+				82827C011BC2B5D000915FB9 /* togglebuttonedit.swift in Sources */,
+				82827C031BC2B72600915FB9 /* touchslideredit.swift in Sources */,
+				82827BEF1BC2B43D00915FB9 /* ViewController.swift in Sources */,
+				82827BED1BC2B43D00915FB9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		82827BF01BC2B43D00915FB9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82827BF11BC2B43D00915FB9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		82827BF51BC2B43D00915FB9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82827BF61BC2B43D00915FB9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		82827BF91BC2B43D00915FB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		82827BFA1BC2B43D00915FB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		82827BFC1BC2B43D00915FB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = touchDrawedit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sk.touchDrawedit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		82827BFD1BC2B43D00915FB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = touchDrawedit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sk.touchDrawedit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82827BE41BC2B43C00915FB9 /* Build configuration list for PBXProject "touchDrawedit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82827BF91BC2B43D00915FB9 /* Debug */,
+				82827BFA1BC2B43D00915FB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82827BFB1BC2B43D00915FB9 /* Build configuration list for PBXNativeTarget "touchDrawedit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82827BFC1BC2B43D00915FB9 /* Debug */,
+				82827BFD1BC2B43D00915FB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82827BE11BC2B43C00915FB9 /* Project object */;
+}
